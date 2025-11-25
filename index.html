@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imamdeen - Java Developer Portfolio</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== HERO HEADER ===== -->
+    <div class="hero-header" id="home">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <i class="fa-solid fa-code"></i>
+            <div class="logo-text">Imamdeen</div>
+          </div>
+          <nav>
+            <div class="togglebtn"><span></span><span></span><span></span></div>
+            <ul class="navlinks">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="container">
+          <div class="hero-text">
+            <h5>Hi, I'm <span class="input">Java Developer</span></h5>
+            <h1>Imamdeen</h1>
+            <p>
+              Motivated Computer Science graduate with practical experience in
+              Core Java, OOPs, Spring Boot, MySQL, JDBC, and RESTful API
+              development. Skilled in building and testing Java-based
+              applications, integrating databases, and performing debugging and
+              code optimization. Seeking an entry-level Java Developer role to
+              apply backend development skills, contribute to API and
+              microservice development, and support the overall SDLC in a
+              dynamic team environment.
+            </p>
+
+            <div class="btn-group">
+              <!-- Change this href to your actual public resume link when ready -->
+              <a
+                href="https://drive.google.com/drive/u/0/my-drive/Imam_Resume_Java.pdf"
+                class="btn active"
+                download
+                >Download CV</a
+              >
+              <a href="#contact" class="btn">Contact</a>
+            </div>
+
+            <div class="social">
+              <a
+                href="https://www.linkedin.com/in/imamdeen-m-790244396/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/imamajmal" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-pic">
+            <!-- put your image as images/imam.jpg -->
+            <img src="images/imam.jpg" alt="Imamdeen" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="wrapper">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <p>Core Java, OOPs, Java Collections</p>
+          </div>
+          <div class="skill-card">
+            <h3>Frameworks</h3>
+            <p>Spring Boot</p>
+          </div>
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <p>MySQL, JDBC</p>
+          </div>
+          <div class="skill-card">
+            <h3>Web Services</h3>
+            <p>RESTful APIs</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <p>Git, Maven, Postman</p>
+          </div>
+          <div class="skill-card">
+            <h3>Concepts</h3>
+            <p>SDLC, Microservices (Basics), Debugging, Code Optimization</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="wrapper">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <h3>Hotel Booking System</h3>
+            <p class="project-tech">Core Java, JDBC, MySQL</p>
+            <p>
+              Developed a console-based hotel reservation system that allows
+              users to search available rooms, create and manage bookings,
+              update customer details, and generate billing entries. Integrated
+              MySQL using JDBC with a focus on OOP design, exception handling,
+              and input validation.
+            </p>
+            <a
+              href="https://github.com/imamajmal/Hotel_Reserve.git"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fa-brands fa-github"></i> View Code
+            </a>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <h3>Online Quiz Application</h3>
+            <p class="project-tech">Core Java, OOPs, Collections Framework</p>
+            <p>
+              Built an interactive quiz application supporting multiple-choice
+              questions, automatic scoring, and result display. Used Java
+              Collections to manage questions and answers dynamically and
+              applied modular design for code reusability and maintainability.
+            </p>
+            <a
+              href="https://github.com/imamajmal/quiz369.git"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fa-brands fa-github"></i> View Code
+            </a>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <h3>Job Connect</h3>
+            <p class="project-tech">
+              Spring Boot, RESTful APIs, MySQL, Maven, Postman
+            </p>
+            <p>
+              Implemented a backend service for job posting and applicant
+              management. Designed and developed REST APIs for employers and job
+              seekers, integrated Spring Data JPA with MySQL, and followed
+              layered architecture with proper validation and error handling.
+            </p>
+            <a
+              href="https://github.com/imamajmal/jobconnect.git"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fa-brands fa-github"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+      <div class="wrapper">
+        <h2 class="section-title">Professional Experience</h2>
+
+        <div class="exp-card">
+          <h3>Java Developer Intern</h3>
+          <h4>PULESOFT TECHNOLOGIES, Chennai</h4>
+          <span class="exp-duration">2025 – Present</span>
+          <p class="exp-stack">Core Java, Spring Boot, MySQL</p>
+          <ul>
+            <li>
+              Developed and tested Java-based applications using Core Java and
+              Spring Boot.
+            </li>
+            <li>Implemented RESTful APIs and integrated MySQL databases.</li>
+            <li>
+              Debugged and optimized code to improve performance and
+              reliability.
+            </li>
+            <li>
+              Collaborated with team members to deliver requirements on time.
+            </li>
+            <li>Wrote clean, organized, and well-documented code.</li>
+            <li>
+              Used Git and Maven for version control and build management.
+            </li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <h3>Billing & Documentation Specialist (Document Controller)</h3>
+          <h4>HMB STEELS PRIVATE LIMITED, Chennai</h4>
+          <span class="exp-duration">Feb 2020 – Nov 2024</span>
+          <ul>
+            <li>Supervised and controlled document management procedures.</li>
+            <li>Reported directly to the Project Manager.</li>
+            <li>Prepared daily, weekly, and monthly reports.</li>
+            <li>Prepared weekly operations meeting drafts.</li>
+            <li>Updated project distribution matrices based on changes.</li>
+            <li>Managed and maintained the central filing system.</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <h3>Electronic Technician – CCTV Installation & Maintenance</h3>
+          <h4>DOLPHIN SECURITY SYSTEM, UAE</h4>
+          <span class="exp-duration">Jan 2017 – Dec 2019</span>
+          <ul>
+            <li>Installed, maintained, and repaired electronic systems.</li>
+            <li>Installed cables, wiring, and performed splicing as needed.</li>
+            <li>
+              Diagnosed and troubleshot malfunctioning electronic equipment.
+            </li>
+            <li>Calibrated instruments per factory specifications.</li>
+            <li>
+              Ensured compliance with electrical codes and safety standards.
+            </li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <h3>Computer Operator – Invoice Processing & Data Management</h3>
+          <h4>Kudankulam Nuclear Power Project, Tirunelveli</h4>
+          <span class="exp-duration">Mar 2012 – Nov 2016</span>
+          <ul>
+            <li>Updated and maintained databases and filing systems.</li>
+            <li>
+              Monitored and corrected database errors and inconsistencies.
+            </li>
+            <li>Generated reports, spreadsheets, and supporting documents.</li>
+            <li>Retrieved daily source files from the data center.</li>
+            <li>Verified data integrity and logged missing information.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="wrapper">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-grid">
+          <div class="edu-card">
+            <h3>B.E. in Computer Science and Engineering</h3>
+            <p>Anna University, Chennai</p>
+            <span class="edu-meta">2011 | 74%</span>
+          </div>
+          <div class="edu-card">
+            <h3>H.S.S</h3>
+            <p>State Board of Tamil Nadu</p>
+            <span class="edu-meta">2007 | 80%</span>
+          </div>
+          <div class="edu-card">
+            <h3>S.S.L.C</h3>
+            <p>State Board of Tamil Nadu</p>
+            <span class="edu-meta">2005 | 82%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="wrapper">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-info">
+          <p><i class="fa-solid fa-location-dot"></i>Tirunelveli</p>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+918072502485">+91 8072502485</a>
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:imamajmal60@gmail.com">imamajmal60@gmail.com</a>
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn active">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>© 2025 Imam Ajmal. All rights reserved.</footer>
+
+    <!-- Typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      // mobile nav
+      const togglebtn = document.querySelector(".togglebtn");
+      const nav = document.querySelector(".navlinks");
+      togglebtn.addEventListener("click", () => {
+        nav.classList.toggle("open");
+      });
+
+      // typed effect
+      new Typed(".input", {
+        strings: [
+          "Java Developer",
+          "Spring Boot Developer",
+          "Backend Developer",
+        ],
+        typeSpeed: 70,
+        backSpeed: 55,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
