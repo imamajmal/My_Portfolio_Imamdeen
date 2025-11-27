@@ -250,19 +250,20 @@ header {
 
 /* Card */
 .project-card {
-  background: #ffffff;
+  background: #020617;              /* dark background instead of white */
   border-radius: 18px;
   padding: 1.6rem 1.7rem;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
-  border: 1px solid rgba(148, 163, 184, 0.35);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  border: 1px solid #1f2937;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.6);
   border-color: #4f46e5;
 }
+
 
 /* Header row */
 .project-header {
