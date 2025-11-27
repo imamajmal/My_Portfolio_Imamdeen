@@ -16,29 +16,6 @@ body {
   line-height: 1.6;
 }
 
-/* Buttons visible */
-.btn-outline {
-  background: transparent;
-  color: #e5e7eb;
-  border: 1px solid #e5e7eb;
-}
-
-.btn-outline:hover {
-  background: #e5e7eb;
-  color: #050819;
-}
-
-.project-tech-pills .pill {
-  background: #1e293b;
-  color: #e5e7eb;
-}
-
-.project-points li {
-  color: #f1f5f9;
-}
-
-
-
 a {
   color: inherit;
   text-decoration: none;
@@ -252,9 +229,10 @@ header {
   margin-bottom: 6px;
 }
 
-/* Projects overall look */
+/* ================= PROJECTS SECTION ================= */
+
 #projects {
-  background: #f9fafb;
+  background: #050819;
 }
 
 .section-subtitle {
@@ -262,18 +240,25 @@ header {
   margin-bottom: 2rem;
   font-size: 0.95rem;
   opacity: 0.8;
+  text-align: center;
 }
 
 /* Grid layout */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.8rem;
+}
+
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Card */
 .project-card {
-  background: #020617;              /* dark background instead of white */
+  background: #020617;
   border-radius: 18px;
   padding: 1.6rem 1.7rem;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
@@ -286,7 +271,6 @@ header {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.6);
   border-color: #4f46e5;
 }
-
 
 /* Header row */
 .project-header {
@@ -309,8 +293,8 @@ header {
   letter-spacing: 0.06em;
   padding: 0.25rem 0.7rem;
   border-radius: 999px;
-  background: #eef2ff;
-  color: #4f46e5;
+  background: #1e293b;
+  color: #e5e7eb;
   white-space: nowrap;
 }
 
@@ -326,8 +310,8 @@ header {
   font-size: 0.75rem;
   padding: 0.25rem 0.6rem;
   border-radius: 999px;
-  background: #f3f4f6;
-  color: #374151;
+  background: #111827;
+  color: #e5e7eb;
 }
 
 /* Bullet points */
@@ -341,6 +325,7 @@ header {
 
 .project-points li {
   margin-bottom: 0.4rem;
+  color: #f1f5f9;
 }
 
 /* Buttons row */
@@ -381,15 +366,22 @@ header {
 
 .btn-outline {
   background: transparent;
-  color: #111827;
-  border-color: #d1d5db;
+  color: #e5e7eb;
+  border: 1px solid #e5e7eb;
 }
 
 .btn-outline:hover {
-  border-color: #4b5563;
-  color: #111827;
+  background: #e5e7eb;
+  color: #050819;
 }
 
+/* Ensure text in project cards is light */
+.project-card,
+.project-card p,
+.project-card li,
+.project-header h3 {
+  color: #e5e7eb;
+}
 
 /* ===== EXPERIENCE ===== */
 .exp-card {
@@ -584,20 +576,3 @@ footer {
     font-size: 1.4rem;
   }
 }
-.project-card,
-.project-card p,
-.project-card li,
-.project-header h3 {
-  color: #e5e7eb;   /* light grey text on dark */
-}
-
-.project-tag {
-  background: #1e293b;
-  color: #e5e7eb;
-}
-
-.project-tech-pills .pill {
-  background: #111827;
-  color: #e5e7eb;
-}
-
