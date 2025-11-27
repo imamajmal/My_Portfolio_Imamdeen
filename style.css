@@ -561,3 +561,20 @@ footer {
     font-size: 1.4rem;
   }
 }
+.project-card,
+.project-card p,
+.project-card li,
+.project-header h3 {
+  color: #e5e7eb;   /* light grey text on dark */
+}
+
+.project-tag {
+  background: #1e293b;
+  color: #e5e7eb;
+}
+
+.project-tech-pills .pill {
+  background: #111827;
+  color: #e5e7eb;
+}
+
