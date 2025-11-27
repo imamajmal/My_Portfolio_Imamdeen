@@ -12,9 +12,32 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background: #050819;
-  color: #f5f5f5;
+  color: #e5e7eb;
   line-height: 1.6;
 }
+
+/* Buttons visible */
+.btn-outline {
+  background: transparent;
+  color: #e5e7eb;
+  border: 1px solid #e5e7eb;
+}
+
+.btn-outline:hover {
+  background: #e5e7eb;
+  color: #050819;
+}
+
+.project-tech-pills .pill {
+  background: #1e293b;
+  color: #e5e7eb;
+}
+
+.project-points li {
+  color: #f1f5f9;
+}
+
+
 
 a {
   color: inherit;
